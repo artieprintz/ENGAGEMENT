@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { HeroSection } from './components/HeroSection';
 import { InvitationSection } from './components/InvitationSection';
-import { CoupleDetailsSection } from './components/CoupleDetailsSection';
 import { CountdownSection } from './components/CountdownSection';
 import { EventDetailsSection } from './components/EventDetailsSection';
 import { VenueSection } from './components/VenueSection';
@@ -9,6 +8,7 @@ import { FinalSection } from './components/FinalSection';
 import { PetalCanvas } from './components/PetalCanvas';
 import { PosterModal } from './components/PosterModal';
 import { AuspiciousKalasam } from './components/TraditionalElements';
+import { MusicPlayer } from './components/MusicPlayer';
 import { eventData } from './data/eventData';
 import { Image as ImageIcon, MapPin, Calendar } from 'lucide-react';
 
@@ -25,6 +25,9 @@ export default function App() {
 
       {/* Ambient Falling Petals Shower */}
       <PetalCanvas />
+
+      {/* Background Music Player */}
+      <MusicPlayer />
 
       {/* 4:5 Poster Modal */}
       <PosterModal isOpen={isPosterOpen} onClose={() => setIsPosterOpen(false)} />
@@ -63,9 +66,6 @@ export default function App() {
 
         {/* 2. INVITATION SECTION */}
         <InvitationSection />
-
-        {/* 3. BRIDE & GROOM DETAILS */}
-        <CoupleDetailsSection />
 
         {/* 4. COUNTDOWN SECTION */}
         <CountdownSection />
