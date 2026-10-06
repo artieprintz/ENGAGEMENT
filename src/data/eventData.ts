@@ -31,7 +31,7 @@ export const eventData: EventConfig = {
   groomQualification: "B.E. (CSE)",
   groomRole: "Specialist Product Engineer – LTM (L&T Groups)",
   groomDetails: "B.E. (CSE) | Specialist Product Engineer – LTM (L&T Groups)",
-  ceremonyTitle: "ENGAGEMENT CEREMONY",
+  ceremonyTitle: "BETROTHAL CEREMONY",
   date: "22 November 2026",
   day: "Sunday",
   monthYear: "November 2026",
@@ -42,8 +42,8 @@ export const eventData: EventConfig = {
   mapsUrl: "https://maps.app.goo.gl/ANFbLcQ1oy2aB6ec9",
   targetDateIso: "2026-11-22T10:00:00+05:30",
   invitationMessage:
-    "With immense joy and the blessings of our parents and elders, we cordially invite you to grace the engagement ceremony of Leelavarshini & Dineshkumar and bless the couple as they begin their beautiful journey together.",
+    "With immense joy and the blessings of our parents and elders, we cordially invite you to grace the betrothal ceremony of Leelavarshini & Dineshkumar and bless the couple as they begin their beautiful journey together.",
   closingNote: "Your presence and blessings will make our celebration even more special.",
   whatsappMessage:
-    "You're warmly invited to the engagement ceremony of K. Leelavarshini & V. Dineshkumar on Sunday, 22 November 2026 at 10:00 AM at Cantonment Mini Hall, Pallavaram, Chennai.",
+    "You're warmly invited to the betrothal ceremony of K. Leelavarshini & V. Dineshkumar on Sunday, 22 November 2026 at 10:00 AM at Cantonment Mini Hall, Pallavaram, Chennai.",
 };

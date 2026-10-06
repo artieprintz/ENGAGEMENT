@@ -23,7 +23,7 @@ export const PosterModal: React.FC<PosterModalProps> = ({ isOpen, onClose }) => 
 
   useEffect(() => {
     if (!isOpen) return;
-    const currentUrl = typeof window !== 'undefined' ? window.location.href : 'https://engagement.leelavarshini-dinesh.com';
+    const currentUrl = typeof window !== 'undefined' ? window.location.href : 'https://betrothal.leelavarshini-dinesh.com';
     QRCode.toDataURL(currentUrl, {
       width: 220,
       margin: 1,
@@ -103,7 +103,7 @@ export const PosterModal: React.FC<PosterModalProps> = ({ isOpen, onClose }) => 
       // Ceremony
       ctx.fillStyle = '#630b17';
       ctx.font = 'bold 50px "Cinzel Decorative", serif';
-      ctx.fillText('ENGAGEMENT CEREMONY', 540, 290);
+      ctx.fillText('BETROTHAL CEREMONY', 540, 290);
 
       // Golden line
       ctx.strokeStyle = '#c89d3c';
@@ -196,7 +196,7 @@ export const PosterModal: React.FC<PosterModalProps> = ({ isOpen, onClose }) => 
       // Trigger download
       const pngUrl = canvas.toDataURL('image/png');
       const downloadLink = document.createElement('a');
-      downloadLink.download = 'Leelavarshini-Dineshkumar-Engagement-Poster-4x5.png';
+      downloadLink.download = 'Leelavarshini-Dineshkumar-Betrothal-Poster-4x5.png';
       downloadLink.href = pngUrl;
       document.body.appendChild(downloadLink);
       downloadLink.click();
@@ -275,7 +275,7 @@ export const PosterModal: React.FC<PosterModalProps> = ({ isOpen, onClose }) => 
                 We cordially invite you to the
               </p>
               <h2 className="font-cinzel-dec text-lg sm:text-2xl md:text-3xl font-bold tracking-[0.16em] text-[#630b17] mt-0.5">
-                ENGAGEMENT CEREMONY
+                BETROTHAL CEREMONY
               </h2>
               <div className="w-20 h-[1.5px] bg-[#c89d3c] mx-auto my-1" />
             </div>

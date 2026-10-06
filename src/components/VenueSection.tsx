@@ -64,7 +64,7 @@ export const VenueSection: React.FC = () => {
               </div>
 
               <span className="block font-cinzel text-[10px] sm:text-xs md:text-sm tracking-[0.25em] sm:tracking-[0.3em] uppercase text-[#8e5e14] font-bold mb-1 sm:mb-2">
-                RECEPTION &amp; ENGAGEMENT VENUE
+                RECEPTION &amp; BETROTHAL VENUE
               </span>
 
               {/* Large Typography: CANTONMENT MINI HALL */}

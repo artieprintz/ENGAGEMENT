@@ -7,9 +7,9 @@ export const AddToCalendar: React.FC = () => {
 
   // 22 November 2026, 10:00 AM to 11:30 AM IST (UTC is 04:30 to 06:00)
   // Format for Google Calendar: 20261122T043000Z / 20261122T060000Z
-  const title = encodeURIComponent(`Engagement Ceremony – ${eventData.brideName} & ${eventData.groomName}`);
+  const title = encodeURIComponent(`Betrothal Ceremony – ${eventData.brideName} & ${eventData.groomName}`);
   const details = encodeURIComponent(
-    `You are cordially invited to grace the engagement ceremony of ${eventData.brideName} and ${eventData.groomName} at ${eventData.venue}, ${eventData.location}.\nMaps: ${eventData.mapsUrl}`
+    `You are cordially invited to grace the betrothal ceremony of ${eventData.brideName} and ${eventData.groomName} at ${eventData.venue}, ${eventData.location}.\nMaps: ${eventData.mapsUrl}`
   );
   const location = encodeURIComponent(`${eventData.venue}, ${eventData.location}`);
   const googleCalendarUrl = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${title}&dates=20261122T043000Z/20261122T060000Z&details=${details}&location=${location}`;
@@ -19,16 +19,16 @@ export const AddToCalendar: React.FC = () => {
     const icsContent = [
       'BEGIN:VCALENDAR',
       'VERSION:2.0',
-      'PRODID:-//Engagement Invitation//Leelavarshini and Dineshkumar//EN',
+      'PRODID:-//Betrothal Invitation//Leelavarshini and Dineshkumar//EN',
       'CALSCALE:GREGORIAN',
       'METHOD:PUBLISH',
       'BEGIN:VEVENT',
-      'UID:engagement-leela-dinesh-20261122@invitation',
+      'UID:betrothal-leela-dinesh-20261122@invitation',
       'DTSTAMP:20261001T000000Z',
       'DTSTART:20261122T043000Z',
       'DTEND:20261122T060000Z',
-      `SUMMARY:Engagement Ceremony – ${eventData.brideName} & ${eventData.groomName}`,
-      `DESCRIPTION:You are cordially invited to grace the engagement ceremony of ${eventData.brideName} and ${eventData.groomName}.\\nVenue: ${eventData.venue}\\, ${eventData.location}\\nGoogle Maps: ${eventData.mapsUrl}`,
+      `SUMMARY:Betrothal Ceremony – ${eventData.brideName} & ${eventData.groomName}`,
+      `DESCRIPTION:You are cordially invited to grace the betrothal ceremony of ${eventData.brideName} and ${eventData.groomName}.\\nVenue: ${eventData.venue}\\, ${eventData.location}\\nGoogle Maps: ${eventData.mapsUrl}`,
       `LOCATION:${eventData.venue}\\, ${eventData.location}`,
       'STATUS:CONFIRMED',
       'END:VEVENT',
@@ -38,7 +38,7 @@ export const AddToCalendar: React.FC = () => {
     const blob = new Blob([icsContent], { type: 'text/calendar;charset=utf-8' });
     const link = document.createElement('a');
     link.href = window.URL.createObjectURL(blob);
-    link.setAttribute('download', 'Engagement-Leelavarshini-Dineshkumar.ics');
+    link.setAttribute('download', 'Betrothal-Leelavarshini-Dineshkumar.ics');
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

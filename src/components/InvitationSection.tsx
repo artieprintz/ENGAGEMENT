@@ -51,7 +51,7 @@ export const InvitationSection: React.FC = () => {
             {/* Invitation Message Body */}
             <div className="relative z-10 px-1 sm:px-6 my-3 sm:my-4">
               <p className="font-cormorant italic text-base xs:text-lg sm:text-xl md:text-2xl text-[#3b1218] leading-relaxed md:leading-loose font-normal">
-                &ldquo;With immense joy and the blessings of our parents and elders, we cordially invite you to grace the engagement ceremony of{" "}
+                &ldquo;With immense joy and the blessings of our parents and elders, we cordially invite you to grace the betrothal ceremony of{" "}
                 <span className="font-semibold text-[#660c18] not-italic font-cinzel text-sm xs:text-base sm:text-lg tracking-wider">
                   Leelavarshini
                 </span>{" "}

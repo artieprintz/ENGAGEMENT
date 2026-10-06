@@ -74,10 +74,10 @@ export const HeroSection: React.FC = () => {
                   We cordially invite you to the
                 </p>
 
-                {/* Large Heading: ENGAGEMENT CEREMONY */}
+                {/* Large Heading: BETROTHAL CEREMONY */}
                 <div className="relative inline-block my-1 sm:my-2 px-2">
                   <h1 className="font-cinzel-dec text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-[0.14em] sm:tracking-[0.18em] text-[#630b17] drop-shadow-sm leading-tight">
-                    ENGAGEMENT
+                    BETROTHAL
                   </h1>
                   <div className="font-cinzel text-lg xs:text-xl sm:text-2xl md:text-3xl tracking-[0.28em] sm:tracking-[0.35em] text-[#8e5e14] font-semibold mt-0.5 sm:mt-1">
                     CEREMONY

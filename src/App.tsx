@@ -42,7 +42,7 @@ export default function App() {
                 Leelavarshini &amp; Dineshkumar
               </span>
               <span className="font-cinzel text-[9px] tracking-[0.25em] text-[#e8d5b5]/80 uppercase font-semibold">
-                Engagement Ceremony • 22 Nov 2026
+                Betrothal Ceremony • 22 Nov 2026
               </span>
             </div>
           </div>
